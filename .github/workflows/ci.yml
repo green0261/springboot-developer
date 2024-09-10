@@ -11,7 +11,7 @@ jobs :
     runs-on : ubuntu-latest #실행 환경 지정. 리눅스, 윈도우 등
     #실행 스텝 지정
     steps :
-      - #uses : 지정한 리포지토리를 확인하고 코드에 대한 작업을 실행할 수 있음
+      #uses : 지정한 리포지토리를 확인하고 코드에 대한 작업을 실행할 수 있음
       - uses : actions/checkout@v3 #checkout이라는 작업의 v3버전을 실행
 
       - uses : actions/setup-java@v3 #setup-java라는 작업의 v3버전을 실행
